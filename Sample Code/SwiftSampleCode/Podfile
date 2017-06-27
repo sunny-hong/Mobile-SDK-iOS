@@ -3,4 +3,5 @@
 target 'DJISDKSwiftDemo' do
    pod 'DJI-SDK-iOS', '~> 4.2'
    pod 'Parse'
+   pod 'Youtube-Player-iOS-Helper', '~> 0.1'
 end
