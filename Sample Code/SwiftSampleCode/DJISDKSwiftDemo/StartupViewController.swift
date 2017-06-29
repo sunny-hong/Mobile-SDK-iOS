@@ -56,7 +56,8 @@ class StartupViewController: UIViewController {
     func resetUI() {
         self.title = "DJI iOS SDK Sample"
         self.sdkVersionLabel.text = "DJI SDK Version: \(DJISDKManager.sdkVersion())"
-        self.openComponents.isEnabled = false;
+//        self.openComponents.isEnabled = false;
+        self.openComponents.isEnabled = true;
         self.bluetoothConnectorButton.isEnabled = true;
         self.productModel.isHidden = true
         self.productFirmwarePackageVersion.isHidden = true
